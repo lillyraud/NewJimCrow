@@ -76,5 +76,5 @@ Depending on the granularity and detail of the data, that I will be able to acqu
 
 My desire is to implement this project in D3, but more realistic outcome would be to do at least the first iteration of the project in Tableau, platform that I am much more familiar and comfortable with.
 
-
+Complete project can be found: https://github.com/lillyraud/NewJimCrow
 
