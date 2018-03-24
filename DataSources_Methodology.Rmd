@@ -1,0 +1,56 @@
+---
+title: "Data Sources and Methodology"
+author: "Lilianne Raud"
+date: "March 20, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Incarcerated Population (Total):
+
+years 1850, 1860 and 1870: https://www.bjs.gov/content/pub/pdf/hcsus5084.pdf pg 28
+
+years 1880 - 1980 https://www.bjs.gov/content/pub/pdf/hcsus5084.pdf pg 29
+
+Incarcerated Population (Blacks):
+
+1950 - 1980 https://www.bjs.gov/content/pub/pdf/hcsus5084.pdf pg 65, in percentage, so totals are derived
+
+
+
+Total population:
+
+1790 - 1840 https://www2.census.gov/library/publications/1949/compendia/hist_stats_1789-1945/hist_stats_1789-1945-chB.pdf pg 25
+
+1850 - 1860 https://www2.census.gov/library/publications/1881/compendia/1880statab.pdf pg 151
+
+1870 - 1890 https://www2.census.gov/library/publications/1950/compendia/statab/71ed/1950-02.pdf pg 7
+
+1900 - 1970 https://www2.census.gov/library/publications/1980/compendia/statab/101ed/1980-02.pdf pg 6
+
+Black population:
+
+1790 - 1840 https://www2.census.gov/library/publications/1949/compendia/hist_stats_1789-1945/hist_stats_1789-1945-chB.pdf pg 25
+
+1850 - 1940 https://www2.census.gov/library/publications/1950/compendia/statab/71ed/1950-02.pdf pg 8
+
+1950 https://www2.census.gov/library/publications/1960/compendia/statab/81ed/1960-02.pdf pg 21
+
+1960 - 1970 https://www2.census.gov/library/publications/1980/compendia/statab/101ed/1980-02.pdf pg 17
+
+Slavery:
+
+1790 - 1860 https://www2.census.gov/library/publications/1949/compendia/hist_stats_1789-1945/hist_stats_1789-1945-chB.pdf pg 25 
+
+```{r}
+
+```
+
+
+Methodology:
+
+The data comes from several documents from the same source, aka Census Bureau. When same period is reported in multiple documents, the most recent document is used as the bases for data. 
+

@@ -1,0 +1,80 @@
+---
+title: "Project Proposal"
+author: "Lilianne Raud"
+date: "March 19, 2018"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+Inspiration for this project came from several sources. I was reminded, what a powerful tool visualization is, by watching interactive viz on WWII casualties: http://www.fallen.io/ww2. I was recommended to read a book: "The New Jim Crow" by Michelle Alexander, where she details the disparity between races, to his day, in United States. Discussions with close friends on this subject pointed out the need to __show__ the numbers, to be able to __see__ the magnitude of the issue. 
+
+
+
+
+```{r}
+
+```
+
+## Goal
+
+This project is an attempt to show the real magnitude of race disparity still in existence in United States. Show the trends, are we getting better or not? 
+
+This story is going to be told in the contexts of:
+
+* Slavery - showing available census data
+* Jim Crow era - currently, not sure what will be the best variable to use for comparison
+* post Jim Crow era - incarceration rates by race
+
+```{r}
+
+```
+
+## Audience
+
+The visualization(s) created for this project are intended for general audience. The goal is straight forward but informative presentation, that is accessible to wide audience with no specific training on how to interpret visualized data. 
+
+## Data
+
+For this project, I am looking for two large groups of data:
+
+* Census data, that will show the general population by race by decade
+* specific population data by era, slavery, Jim Crow, post Jim Crow, by decade.
+
+Visualization(s) will show population counts by decade. In addition, I am planning to display the presidents who were in office at the time. Some interesting trends might come out of this overlay, or not. 
+
+The links below are where I am currently looking for the data.  I have not completed the acquisition of the data yet. 
+
+* https://www.bjs.gov/
+* https://www.census.gov/
+
+Al thought the data-set will be small, since I am looking at decade interval, the acquiring of the data has taken a long time. Looking through many pdfs and manually typing the numbers, is a time-consuming endeavor. Detailed list for all data and the sources is included in the DataSources_Methodology document.
+
+The data starts at 1790 and runs throughout 2010. I am planning to add potentially some yearly data from 2010, to see how most recent years stack up against centuries of trend. This is still work in progress. 
+
+### Variables of interest that will be displayed:
+
+* Year (decades e.g 1790, 1800 ... 2010), 
+* Total Population (count, currently actual number provided in the source, most likely display will be reduced to thousands. The visualization will provide the scaling), 
+* Incarcerated Population (count, as above), 
+* Black Population (count, as above), 
+* Black Incarcerated Population (count, as above), 
+* Slave Population (count, as above), 
+* Presidents in office (names)
+
+## Implementation
+
+Since my inspiration came partly from the WWII Viz linked above, my current thinking is to use similar bar graph visualization with shapes, as the main visualization tool. Comparing the variables listed above should tell a compelling story.  The visualization will be a timeline with population counts shown as shape bar graphs above timeline, and presidents below the time line, most likely as a separate viz on a dashboard. 
+
+Depending on the granularity and detail of the data, that I will be able to acquire and validate/verify, all relevant/meaningful data will be made available in an appropriate manner (i.e on hover additional pertinent data).
+
+My desire is to implement this project in D3, but more realistic outcome would be to do at least the first iteration of the project in Tableau, platform that I am much more familiar and comfortable with.
+
+
+
